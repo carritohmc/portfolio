@@ -1,0 +1,200 @@
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(0, 0, 0);
+    height: 4.6rem;
+    margin-right: 13rem;
+    width: 100%;
+
+}
+
+.menu a{
+    color: #2555cf;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    background-color: #779dd4;
+    height: 3.6rem;
+    width: 100%;
+    /* padding: .5rem; */
+    margin-left: -3px;
+}
+
+.footer-container a{
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #213d86;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.links-container a{
+    margin-right: 4rem;
+    }
+
+    .menu  a:hover{
+
+        animation-name: background-anime;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: initial;
+    
+    }
+
+
+    
+    @keyframes background-anime{
+        from {color: #2555cf; }
+        to{color: #b412b6; }
+    }
+
+    .div-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://cdn.pixabay.com/photo/2023/08/01/11/11/ink-8162726_960_720.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    h2{
+        font-size: 12rem;
+        color: white;
+        -webkit-text-stroke: .1rem rgb(22, 22, 22);
+
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 200px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-weight: 800;
+        -webkit-font-smoothing: antialiased;
+
+        background-image: url(/img/customPanel.png);
+        background-repeat: repeat;
+        animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
+    
+    }
+
+
+    @keyframes bg-animation {
+        0%   { background-position: left top; }
+        25%   { background-position: right top; }
+        50%   { background-position: right bottom; }
+        75%   { background-position: left bottom; }
+        100%   { background-position: left top; }
+      }
+
+
+.div-about{
+    display: flex;
+}
+.pic-about{
+
+width: 50rem;
+}
+.pic-about img{
+    width: 80%;
+    margin-left: 6rem;
+}
+
+.text-about{
+    display: block;
+    justify-content: center;
+    width: 50%;
+    margin: 0 4rem;
+}
+.text-about h1{
+    font-size: 4rem;
+    color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+
+    background-image: url(/img/customPanel.png);
+    background-repeat: repeat;
+    animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
+
+}
+
+
+      /* comment for the media portion cellphones             //////////////////////////////////////// */
+
+      @media(max-width:768px){
+
+        html{
+            font-size: 12px; 
+    
+        }
+    
+
+        h2{
+            font-size: 6rem;
+            color: white;
+            -webkit-text-stroke: .1rem rgb(22, 22, 22);
+        }
+
+
+        .menu{
+
+         
+        
+            background-color: rgb(0, 0, 0);
+            height: 4.6rem;
+            margin-right: 8rem;
+            width: 100%;
+
+            height: 6.6rem;
+            margin-left: -3px;
+        
+        }
+        .links-container{
+display: flex;
+        }
+        .menu a{
+            color: #426bd1;
+            font-size: 1.5rem;
+        }
+        
+.link-home{
+    width: 20%;
+    height: 100%;
+}
+
+.menu img{
+
+    width: 10%;
+    visibility: hidden;
+}
+
+.pic-about{
+visibility: hidden;
+}
+
+.text-about{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin-right: 6rem;
+    padding: 0;
+}
+      }
