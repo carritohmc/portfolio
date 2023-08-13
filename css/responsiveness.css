@@ -1,0 +1,124 @@
+/* Tablet  */
+@media((min-width:641px) and (max-width: 1007px)){
+html{font-size: 12px}
+}
+
+/* mobile view*/
+@media(max-width:640px){
+    html{ font-size: 10px;}
+
+
+
+    .header-container{
+        display:flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .logo-conptainer{
+        width: 100%;
+        padding: 2%;
+    }
+
+    .logo-img{
+        width: 10rem;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    
+    .nav-mobile{
+        display: flex;
+        flex-direction: column;
+        align-items: self-end;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .menu-container{
+        height: auto;
+    }
+    
+    .menu-mobile{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        padding: 2%;
+
+    }
+    
+    .hidden{
+        display: none;
+    }
+
+    .material-icons{
+        cursor: pointer;
+    }
+
+
+    html{
+        font-size: 12px; 
+
+    }
+
+
+    h2{
+        font-size: 6rem;
+        color: white;
+        -webkit-text-stroke: .1rem rgb(22, 22, 22);
+
+
+
+        
+    }
+
+
+
+
+    .links-container{
+display: flex;
+    }
+    .menu a{
+        color: #426bd1;
+        font-size: 1.5rem;
+    }
+    
+.link-home{
+width: 20%;
+height: 100%;
+}
+
+.menu-mobile a{
+    color: #426bd1;
+    font-size: 1.2rem;
+}
+
+.text-about{
+display: block;
+justify-content: center;
+width: 100%;
+margin-right: 6rem;
+padding: 0;
+}
+
+
+.pic-about{
+
+display: none;
+}
+
+.project-container{
+    display: block;
+    align-items:center;
+    justify-content: center;
+  }
+.card{
+margin: 1rem 1rem .5rem -2rem;
+}
+  }
+
+
+

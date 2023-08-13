@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #333333;
+}
+
+
+html { font-size: 14px;}  
+/* 1 REM = 14px */
+
+.primary-button{
+    color: #333333;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 2%;
+    border: none;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.primary-button:hover{
+/* Figma Plugin: Color Shades Kit */
+background-color: #779dd4;
+}
+
+/* usability heuristic #1: Visibility of system status */
+
+.current{
+    border-bottom: 2px solid #2555cf;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.div-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2023/08/01/11/11/ink-8162726_960_720.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+ } 
+
+ h2{
+    font-size: 12rem;
+    color: white;
+    -webkit-text-stroke: .1rem rgb(22, 22, 22);
+    line-height: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 3% 0;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+
+    background-image: url(../img/customPanel.png);
+    background-repeat: repeat;
+    animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
+
+} 
+
+@keyframes bg-animation {
+    0%   { background-position: left top; }
+    25%   { background-position: right top; }
+    50%   { background-position: right bottom; }
+    75%   { background-position: left bottom; }
+    100%   { background-position: left top; }
+  }
+
+  .menu a{
+    color: #2555cf;
+    font-size: 1.5rem;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    background-color: #779dd4;
+    height: 3.6rem;
+    width: 100%;
+    margin-left: -3px;
+}
+
+.footer-container a{
+    padding: 0 15px;
+    font-size: 1rem;
+    color: #213d86;
+}
+
+
+.div-about{
+    display: flex;
+}
+.pic-about{
+
+width: 50rem;
+}
+.pic-about img{
+    width: 80%;
+    margin-left: 6rem;
+}
+
+.text-about{
+    display: block;
+    justify-content: center;
+    width: 50%;
+    margin: 4rem 4rem;
+    font-size: 1.2rem;
+}
+.text-about h1, .text-skills h1{
+    font-size: 2.5rem;
+    color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+
+    background-image: url(../img/backgroundWall.png);
+    background-repeat: repeat;
+    animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
+
+} 
+
+a{
+    text-decoration: none;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+    background-image: url(../img/skillsBackgroundBW.png);
+    background-repeat: repeat;
+    background-color: #cecece;
+    padding: 2rem 0;
+}
+
+.text-skills {
+    width: 50%;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.726);
+    border-radius: 3%;
+    padding: 4rem;
+
+}
+.text-skills ul{
+    display: inline-block;
+    text-align: left;
+
+}
+
+.card {
+    box-shadow: 0 .2rem .5rem 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: .5rem;
+    width:20rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 .5rem 1rem 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: .2rem 1rem;
+  }
+
+  .card img{
+ 
+    border-radius: 2%; 
+  }
+
+  .project-container{
+    display: flex;
+    justify-content: space-around;
+
+  }

@@ -1,17 +1,15 @@
-
+/* 
 .menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: rgb(0, 0, 0);
     height: 4.6rem;
     margin-right: 13rem;
     width: 100%;
+} */
 
-}
-
-.menu a{
+ .menu a{
     color: #2555cf;
 }
 
@@ -24,7 +22,6 @@
     background-color: #779dd4;
     height: 3.6rem;
     width: 100%;
-    /* padding: .5rem; */
     margin-left: -3px;
 }
 
@@ -62,33 +59,33 @@ body{
         to{color: #b412b6; }
     }
 
-    .div-container{
+     .div-container{
         display: flex;
         justify-content: center;
         align-items: center;
         background-image: url(https://cdn.pixabay.com/photo/2023/08/01/11/11/ink-8162726_960_720.png);
         background-repeat: no-repeat;
-        background-position: center;
-    }
-    h2{
+        background-position: center; 
+     } 
+     h2{
         font-size: 12rem;
         color: white;
         -webkit-text-stroke: .1rem rgb(22, 22, 22);
-
+        line-height: 100%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-top: 200px;
+        margin: 3% 0;
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;
         font-weight: 800;
         -webkit-font-smoothing: antialiased;
 
-        background-image: url(/img/customPanel.png);
+        background-image: url(img/customPanel.png);
         background-repeat: repeat;
         animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
     
-    }
+    } 
 
 
     @keyframes bg-animation {
@@ -98,7 +95,7 @@ body{
         75%   { background-position: left bottom; }
         100%   { background-position: left top; }
       }
-
+ 
 
 .div-about{
     display: flex;
@@ -130,15 +127,15 @@ width: 50rem;
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
 
-    background-image: url(/img/customPanel.png);
+    background-image: url(img/customPanel.png);
     background-repeat: repeat;
     animation: bg-animation 30s cubic-bezier(.3,0,.7,1) infinite;
 
-}
+} 
 
 
       /* comment for the media portion cellphones             //////////////////////////////////////// */
-
+/* 
       @media(max-width:768px){
 
         html{
@@ -180,15 +177,7 @@ display: flex;
     height: 100%;
 }
 
-.menu img{
 
-    width: 10%;
-    visibility: hidden;
-}
-
-.pic-about{
-visibility: hidden;
-}
 
 .text-about{
     display: block;
@@ -197,4 +186,4 @@ visibility: hidden;
     margin-right: 6rem;
     padding: 0;
 }
-      }
+      } */

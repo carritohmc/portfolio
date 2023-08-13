@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/responsiveness.css">
-    <title>Home Page</title>
+    <title>Projects</title>
 </head>
 <body>
 
@@ -27,9 +27,9 @@
 
     <div class="menu-container">
         <nav class="menu">
-            <a class="primary-button" href="projects.html">Featured Projects</a>
-            <a class="primary-button" href="skills.html">Skills</a>
-            <a class="primary-button" href="aboutMe.html">About Me</a>
+            <a class="primary-button current" href="projects.html">Featured Projects</a>
+            <a class="primary-button " href="skills.html">Skills</a>
+            <a class="primary-button " href="aboutMe.html">About Me</a>
             <a class="primary-button" href="contact.html">Contact</a>
         </nav>
     </div>
@@ -45,7 +45,7 @@
         </a>
 
         <nav id="nav-mobile" class="hidden">
-            <a class="primary-button" href="">Featured Projects</a>
+            <a class="primary-button current" href="projects.html">Featured Projects</a>
             <a class="primary-button" href="skills.html">Skills</a>
             <a class="primary-button" href="aboutMe.html">About Me</a>
             <a class="primary-button" href="">Contact</a>
@@ -56,22 +56,51 @@
 
 </div>
 
+<div class="skills">
 
+    <div class="text-skills">
+        <h1>Featured Projects</h1>
 
+<div class="project-container">
 
-<div class="div-container">
-
-    <h2>Designer<br>+<br>Developer</h2>
+    <div class="card">
+        <img id="card-img" src="img/OCProject.png" alt="Game cover" style="width:100%">
+        <div class="container">
+            <h4><b>Title:</b>Occultus Command</h4>
+            <p><b>Description:</b>Action Platformer Game released on Steam, uses GML, HTML and CSS</p>
+        </div>
+    </div> 
+    <div class="card">
+        <img id="card-img" src="img/natGeoProject.png" alt="Web project screenshot" style="width:100%">
+        <div class="container">
+            <h4><b>Title:</b>Nat Geo</h4>
+            <p><b>Description:</b>Recreation of National Geographic Website with HTML and CSS</p>
+        </div>
+    </div> 
+    <div class="card">
+        <img id="card-img" src="img/issueManager.png" alt="Web project screenshot" style="width:100%">
+        <div class="container">
+            <h4><b>Title:</b>Issue Manager</h4>
+            <p><b>Description:</b>Issue Manager App built using Jinja, Flask and Python</p>
+        </div>
+    </div> 
+</div>
+</div>
 
 </div>
 
 
+
+
+
+
+
 <footer class="footer-container">
     <p>©2023 F. Almonte </p>
-    <a class="link-login" href="index.html">Featured Projects</a>
-    <a class="link-news " href="skills.html">Skills</a>
-    <a class="link-subs " href="aboutMe.html">About me</a>
-    <a class="link-menu" href="#">Contact</a>
+        <a class="link-login current" href="projects.html">Featured Projects</a>
+        <a class="link-news" href="skills.html">Skills</a>
+        <a class="link-subs " href="aboutMe.html">About me</a>
+        <a class="link-menu" href="#">Contact</a>
   </footer>
   <script src="js/interaction.js"> </script>
 </body>
