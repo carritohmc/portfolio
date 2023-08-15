@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-family: 'Oswald', sans-serif;
     color: #333333;
 }
@@ -117,7 +117,7 @@ width: 50rem;
     margin: 4rem 4rem;
     font-size: 1.2rem;
 }
-.text-about h1, .text-skills h1{
+.text-about h1, .text-skills h1, .container h1{
     font-size: 2.5rem;
     color: white;
     -webkit-background-clip: text;
@@ -142,7 +142,7 @@ a{
 .skills{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     width: 100%;
     word-wrap: break-word;
     font-size: 1.2rem;
@@ -150,16 +150,26 @@ a{
     background-repeat: repeat;
     background-color: #cecece;
     padding: 2rem 0;
+    margin: 0;
 }
 
 .text-skills {
-    width: 50%;
+    width: 60%;
     text-align: center;
     background-color: rgba(240, 248, 255, 0.726);
     border-radius: 3%;
-    padding: 4rem;
+    padding: 1rem 0;
+ padding-bottom: 4rem;
+ justify-content: center;
+ text-align: center;
 
 }
+
+.text-skills p {
+    text-align: left;
+    margin-left: .6rem;
+}
+
 .text-skills ul{
     display: inline-block;
     text-align: left;
@@ -171,6 +181,7 @@ a{
     transition: 0.3s;
     border-radius: .5rem;
     width:20rem;
+
   }
   
   .card:hover {
@@ -179,6 +190,7 @@ a{
   
   .container {
     padding: .2rem 1rem;
+
   }
 
   .card img{
@@ -190,4 +202,10 @@ a{
     display: flex;
     justify-content: space-around;
 
+  }
+
+  hr{
+    color: #213d86;
+    width: 100%;
+opacity: .5;
   }

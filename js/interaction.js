@@ -10,3 +10,7 @@ function menuToggle() {
         menu.classList.add("nav-mobile");
     }
 }
+
+function clearForm(){
+    document.getElementById("emailForm").reset();
+}

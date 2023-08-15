@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/header.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/responsiveness.css">
-    <title>About Me</title>
+    <title>Contact</title>
 </head>
 <body>
 
@@ -28,9 +29,9 @@
     <div class="menu-container">
         <nav class="menu">
             <a class="primary-button" href="projects.html">Featured Projects</a>
-            <a class="primary-button current" href="skills.html">Skills</a>
+            <a class="primary-button " href="skills.html">Skills</a>
             <a class="primary-button " href="aboutMe.html">About Me</a>
-            <a class="primary-button" href="contact.html">Contact</a>
+            <a class="primary-button current" href="contact.html">Contact</a>
         </nav>
     </div>
 
@@ -46,9 +47,9 @@
 
         <nav id="nav-mobile" class="hidden">
             <a class="primary-button" href="projects.html">Featured Projects</a>
-            <a class="primary-button current" href="skills.html">Skills</a>
+            <a class="primary-button" href="skills.html">Skills</a>
             <a class="primary-button" href="aboutMe.html">About Me</a>
-            <a class="primary-button" href="contact.html">Contact</a>
+            <a class="primary-button current" href="contact.html">Contact</a>
         </nav>
 
 
@@ -56,30 +57,24 @@
 
 </div>
 
-<div class="skills">
+<div class="container">
 
-    <div class="text-skills">
-        <h1>Skills</h1>
-        <p>I am a good communicator who is bilingual in Spanish and English, I have extensive graphic design skills and have commpleted multiple courses and trainings: such as Comic Book Pro Boot Camp, 3D Modeling and Animation, and Video Editing. I am goal-oriented and highly motivated, if something has a solution I'll find it, if not, I'll create one.
-        <h1>Technologies</h1>
-        <p>
-            <ul>
-                <li>Python <i class="fa-brands fa-python"></i></li>           
-                <li>HTML/CSS <i class="fa-brands fa-html5"> <i class="fa-brands fa-css3-alt"></i></i></li>
-                <li>Javascript <i class="fa-brands fa-square-js"></i></li>
-                <li>Gamemaker Studio/GML <img src="img/gml.png" style="height: 20px;" alt="Gamemaker logo"></li>
-                <li>Jquery <img src="img/jQuery-Logo.png" style="height: 20px;" alt="Jquery logo"></li>
-                <li>Flask <img src="img/Flask_logo.png" style="height: 20px;" alt="Jquery logo"></li>
-                <li>C++</li>
-                <li>React <i class="fa-brands fa-react"></i></li>
+    <h1>Get in Touch!</h1>
+    <p class="subtitle"> Feel free to drop me a line below!</p>
+    <form id="emailForm">
+        <input type="text" name="" id="name" placeholder="Name" required> <br>
+        <input type="email" name="" id="email" placeholder="Email" required> <br>
+        <input type="text" name="" id="subject" placeholder="Subject"> <br>
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
+        <div class="form-buttons"> 
+            <button type="submit" class="primary-button"> Send email</button>
+            <button type="button" class="primary-button" onclick="clearForm()"> Reset</button>
+        </div>
 
-            </ul>
-        </p>
-
-    </div>
- 
-
+    </form>
 </div>
+
+
 
 
 
@@ -90,10 +85,12 @@
 <footer class="footer-container">
     <p>©2023 F. Almonte </p>
         <a class="link-login" href="projects.html">Featured Projects</a>
-        <a class="link-news current" href="skills.html">Skills</a>
+        <a class="link-news" href="skills.html">Skills</a>
         <a class="link-subs " href="aboutMe.html">About me</a>
-        <a class="link-menu" href="contact.html">Contact</a>
+        <a class="link-menu current" href="contact.html">Contact</a>
   </footer>
   <script src="js/interaction.js"> </script>
+  <script src="js/email.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- This is the EmailJS library -->
 </body>
 </html>

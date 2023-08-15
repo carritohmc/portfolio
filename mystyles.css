@@ -1,13 +1,3 @@
-/* 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(0, 0, 0);
-    height: 4.6rem;
-    margin-right: 13rem;
-    width: 100%;
-} */
 
  .menu a{
     color: #2555cf;
@@ -133,57 +123,3 @@ width: 50rem;
 
 } 
 
-
-      /* comment for the media portion cellphones             //////////////////////////////////////// */
-/* 
-      @media(max-width:768px){
-
-        html{
-            font-size: 12px; 
-    
-        }
-    
-
-        h2{
-            font-size: 6rem;
-            color: white;
-            -webkit-text-stroke: .1rem rgb(22, 22, 22);
-        }
-
-
-        .menu{
-
-         
-        
-            background-color: rgb(0, 0, 0);
-            height: 4.6rem;
-            margin-right: 8rem;
-            width: 100%;
-
-            height: 6.6rem;
-            margin-left: -3px;
-        
-        }
-        .links-container{
-display: flex;
-        }
-        .menu a{
-            color: #426bd1;
-            font-size: 1.5rem;
-        }
-        
-.link-home{
-    width: 20%;
-    height: 100%;
-}
-
-
-
-.text-about{
-    display: block;
-    justify-content: center;
-    width: 100%;
-    margin-right: 6rem;
-    padding: 0;
-}
-      } */
